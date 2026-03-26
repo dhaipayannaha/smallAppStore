@@ -26,8 +26,8 @@ const Apps = () => {
             <div className="max-w-6xl mx-auto px-4">
                 {/* Header Section */}
                 <div className="text-center mb-12">
-                    <h1 className="text-[#001931] text-5xl font-bold mb-4">Our All Applications</h1>
-                    <p className="text-[#666666] text-lg">Explore All Apps on the Market developed by us. We code for Millions</p>
+                    <h1 className="text-[#001931] text-4xl md:text-5xl font-bold mb-4">Explore Our Apps</h1>
+                    <p className="text-[#666666] text-base md:text-lg max-w-2xl mx-auto">Explore All Apps on the Market developed by us. We code for Millions</p>
                 </div>
 
                 {/* Filter & Count Section */}
@@ -43,7 +43,7 @@ const Apps = () => {
                         <input 
                             type="text" 
                             placeholder="Search Apps" 
-                            className="w-full bg-white border border-gray-200 rounded-lg py-3 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-[#632EE3] transition-all text-black"
+                            className="w-full bg-white border border-gray-200 rounded-xl py-4 pl-12 pr-4 focus:outline-none focus:ring-2 focus:ring-[#632EE3] transition-all text-black shadow-sm"
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
                         />
