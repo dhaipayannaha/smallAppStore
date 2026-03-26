@@ -1,0 +1,365 @@
+[
+  {
+    "image": "https://loremflickr.com/400/300/app,ui",
+    "title": "Task Manager Pro",
+    "companyName": "SoftTech Ltd",
+    "id": 1,
+    "description": "A powerful task management app for productivity.",
+    "size": 25,
+    "reviews": 1200,
+    "ratingAvg": 5,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 580 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/fitness,app",
+    "title": "FitLife Tracker",
+    "companyName": "HealthCorp",
+    "id": 2,
+    "description": "Track your daily fitness and health goals.",
+    "size": 30,
+    "reviews": 980,
+    "ratingAvg": 4.3,
+    "downloads": 42000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/music,app",
+    "title": "Music StreamX",
+    "companyName": "AudioWave",
+    "id": 3,
+    "description": "Stream unlimited music anytime.",
+    "size": 40,
+    "reviews": 2000,
+    "ratingAvg": 5,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1190 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/food,delivery",
+    "title": "Foodie Express",
+    "companyName": "QuickBite",
+    "id": 4,
+    "description": "Order food from your favorite restaurants.",
+    "size": 35,
+    "reviews": 1500,
+    "ratingAvg": 4.4,
+    "downloads": 80000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 560 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/travel,app",
+    "title": "Travel Buddy",
+    "companyName": "WanderTech",
+    "id": 5,
+    "description": "Plan your trips with ease.",
+    "size": 28,
+    "reviews": 760,
+    "ratingAvg": 4.2,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 45 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 290 }
+    ]
+  },
+
+  {
+    "image": "https://loremflickr.com/400/300/finance,app",
+    "title": "Money Manager",
+    "companyName": "FinTrack",
+    "id": 6,
+    "description": "Manage your expenses and savings.",
+    "size": 22,
+    "reviews": 1100,
+    "ratingAvg": 5,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 550 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/education,app",
+    "title": "LearnHub",
+    "companyName": "EduTech",
+    "id": 7,
+    "description": "Online courses and learning platform.",
+    "size": 50,
+    "reviews": 2100,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 1490 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/chat,app",
+    "title": "ChatZone",
+    "companyName": "Connectify",
+    "id": 8,
+    "description": "Instant messaging and chat app.",
+    "size": 18,
+    "reviews": 3000,
+    "ratingAvg": 4.1,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1250 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/photo,editor",
+    "title": "PhotoMaster",
+    "companyName": "PixelSoft",
+    "id": 9,
+    "description": "Edit your photos professionally.",
+    "size": 45,
+    "reviews": 1750,
+    "ratingAvg": 5,
+    "downloads": 90000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 950 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/gaming,app",
+    "title": "Game Arena",
+    "companyName": "PlayZone",
+    "id": 10,
+    "description": "Play trending mobile games.",
+    "size": 60,
+    "reviews": 5000,
+    "ratingAvg": 4.3,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2200 }
+    ]
+  },
+
+  {
+    "image": "https://loremflickr.com/400/300/weather,app",
+    "title": "Weather Now",
+    "companyName": "SkyTech",
+    "id": 11,
+    "description": "Get real-time weather updates.",
+    "size": 15,
+    "reviews": 900,
+    "ratingAvg": 4.0,
+    "downloads": 40000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 220 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/shopping,app",
+    "title": "ShopEasy",
+    "companyName": "BuyNow",
+    "id": 12,
+    "description": "Online shopping made simple.",
+    "size": 55,
+    "reviews": 2500,
+    "ratingAvg": 5,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 90 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1350 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/banking,app",
+    "title": "SecureBank",
+    "companyName": "TrustFinance",
+    "id": 13,
+    "description": "Safe and secure mobile banking.",
+    "size": 33,
+    "reviews": 1800,
+    "ratingAvg": 4.7,
+    "downloads": 95000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1040 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/video,streaming",
+    "title": "StreamFlix",
+    "companyName": "MediaHub",
+    "id": 14,
+    "description": "Watch movies and series online.",
+    "size": 70,
+    "reviews": 4000,
+    "ratingAvg": 4.4,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1850 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/notes,app",
+    "title": "NoteKeeper",
+    "companyName": "WriteSoft",
+    "id": 15,
+    "description": "Take notes quickly and easily.",
+    "size": 12,
+    "reviews": 650,
+    "ratingAvg": 5,
+    "downloads": 28000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 260 }
+    ]
+  },
+
+  {
+    "image": "https://loremflickr.com/400/300/map,navigation",
+    "title": "NavGuide",
+    "companyName": "GeoTech",
+    "id": 16,
+    "description": "Accurate GPS navigation system.",
+    "size": 48,
+    "reviews": 1700,
+    "ratingAvg": 5,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 70 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 630 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/calendar,app",
+    "title": "Event Planner",
+    "companyName": "PlanIt",
+    "id": 17,
+    "description": "Organize your events efficiently.",
+    "size": 20,
+    "reviews": 800,
+    "ratingAvg": 4.1,
+    "downloads": 35000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 240 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/security,app",
+    "title": "SafeVault",
+    "companyName": "SecureIT",
+    "id": 18,
+    "description": "Protect your files and data.",
+    "size": 27,
+    "reviews": 1200,
+    "ratingAvg": 5,
+    "downloads": 60000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 590 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/language,learning",
+    "title": "LangMaster",
+    "companyName": "GlobalEdu",
+    "id": 19,
+    "description": "Learn new languages fast.",
+    "size": 38,
+    "reviews": 2100,
+    "ratingAvg": 4.8,
+    "downloads": 140000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 1560 }
+    ]
+  },
+  {
+    "image": "https://loremflickr.com/400/300/news,app",
+    "title": "Daily News",
+    "companyName": "InfoMedia",
+    "id": 20,
+    "description": "Stay updated with latest news.",
+    "size": 26,
+    "reviews": 950,
+    "ratingAvg": 4.2,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 270 }
+    ]
+  }
+]

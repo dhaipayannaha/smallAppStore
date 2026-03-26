@@ -1,8 +1,14 @@
+import Dashboard from "../Components/Home/Dashboard";
+import Trusted from "../Components/Home/Trusted";
+import TrandingApps from "../Components/Home/TrandingsApps";
+
 const Home = () => {
     return (
-        <div>
-            <h1 className="text-blue-700 text-3xl">Home</h1>
-        </div>
+        <>
+            <Dashboard />
+            <Trusted />
+            <TrandingApps />
+        </>
     );
 };
 
