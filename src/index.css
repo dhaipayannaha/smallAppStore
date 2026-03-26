@@ -1,2 +1,16 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+  --animate-shimmer: shimmer-animation 3s linear infinite;
+  @keyframes shimmer-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
+
+.animate-shimmer {
+  background-size: 400% 400%;
+  animation: var(--animate-shimmer);
+}

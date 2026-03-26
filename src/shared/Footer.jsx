@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="md:col-span-2">
                     <div className="flex items-center gap-2 mb-4 uppercase">
                         <img src={logo} alt="logo" className="w-10 h-10 object-contain" />
-                        <NavLink to="/" className="text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text leading-none pt-1">HERO.IO</NavLink>
+                        <NavLink to="/" className="text-2xl font-bold bg-gradient-to-r from-[#632EE3] via-[#00D390] to-[#632EE3] text-transparent bg-clip-text leading-none pt-1 animate-shimmer">HERO.IO</NavLink>
                     </div>
                     <p className="text-[#627382] text-sm mb-6 max-w-sm leading-relaxed">
                         We craft innovative apps designed to make everyday life simpler, smarter, and more exciting. Turn your ideas into digital experiences that truly make an impact.
