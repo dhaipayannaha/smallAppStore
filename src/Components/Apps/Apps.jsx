@@ -1,20 +1,15 @@
-import { useState } from "react";
-import { useQuery } from "@tanstack/react-query";
-import appDataJson from "../../../app.json";
+import { useApps } from "../../Hooks/useApps";
 import SingleApp from "../single/SingleApp";
+import AppError from "../../pages/AppError";
 
 const Apps = () => {
-    const [searchTerm, setSearchTerm] = useState("");
-
-    const { data: appData, isLoading, error } = useQuery({
-        queryKey: ["apps"],
-        queryFn: async () => {
-            // Mocking a fetch delay for realistic feel
-            return new Promise((resolve) => {
-                setTimeout(() => resolve(appDataJson), 500);
-            });
-        }
-    });
+    const { 
+        apps: filteredApps, 
+        searchTerm, 
+        setSearchTerm, 
+        isLoading, 
+        error 
+    } = useApps();
 
     if (isLoading) {
         return <div className="min-h-screen flex items-center justify-center">
@@ -23,12 +18,8 @@ const Apps = () => {
     }
 
     if (error) {
-        return <div className="min-h-screen flex items-center justify-center text-red-500">Error loading apps: {error.message}</div>;
+        return <AppError />;
     }
-
-    const filteredApps = (appData || []).filter(app => 
-        app.title.toLowerCase().includes(searchTerm.toLowerCase())
-    );
 
     return (
         <div className="bg-[#F5F5F5] min-h-screen py-16">
@@ -52,7 +43,7 @@ const Apps = () => {
                         <input 
                             type="text" 
                             placeholder="Search Apps" 
-                            className="w-full bg-white border border-gray-200 rounded-lg py-3 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-[#632EE3] transition-all"
+                            className="w-full bg-white border border-gray-200 rounded-lg py-3 pl-10 pr-4 focus:outline-none focus:ring-2 focus:ring-[#632EE3] transition-all text-black"
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
                         />
@@ -66,8 +57,9 @@ const Apps = () => {
                             <SingleApp key={app.id} app={app} />
                         ))
                     ) : (
-                        <div className="col-span-full text-center py-20 text-gray-500 text-xl">
-                            No apps found matching "{searchTerm}"
+                        <div className="col-span-full flex flex-col items-center">
+                            <AppError />
+                            <p className="text-center text-gray-500 text-2xl font-bold -mt-10">No applications found matching "{searchTerm}"</p>
                         </div>
                     )}
                 </div>

@@ -1,8 +1,16 @@
 import { NavLink } from "react-router";
-import appData from "../../../app.json";
+import { useApps } from "../../Hooks/useApps";
 import SingleApp from "../single/SingleApp";
 
 const TrandingApps = () => {
+    const { apps: allApps, isLoading } = useApps();
+
+    if (isLoading) {
+        return <div className="py-[80px] flex items-center justify-center">
+            <span className="loading loading-spinner text-primary w-12 h-12"></span>
+        </div>;
+    }
+
     return (
         <div className="py-[80px] bg-[#F5F5F5]">
             <div className="max-w-6xl mx-auto px-4">
@@ -10,7 +18,7 @@ const TrandingApps = () => {
                 <p className="text-center text-[16px] text-[#666666] mb-12">Explore All Trending Apps on the Market developed by us</p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                    {[...appData]
+                    {[...allApps]
                         .sort((a, b) => b.ratingAvg - a.ratingAvg)
                         .slice(0, 8)
                         .map((app) => (

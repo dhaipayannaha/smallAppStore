@@ -7,6 +7,9 @@ import NotFound from "../pages/NotFound";
 import AppDetails from "../pages/AppDetails";
 
 
+import About from "../pages/About";
+import Contact from "../pages/Contact";
+
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -27,6 +30,14 @@ export const router = createBrowserRouter([
             {
                 path: "/installation",
                 Component: Installation
+            },
+            {
+                path: "/about",
+                Component: About
+            },
+            {
+                path: "/contact",
+                Component: Contact
             },
             {
                 path: "*",

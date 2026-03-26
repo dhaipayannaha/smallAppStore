@@ -6,6 +6,8 @@ import download from "../assets/icon-downloads.png"
 import star from "../assets/icon-ratings.png"
 import review from "../assets/icon-review.png"                                               
 
+import { toast } from "react-toastify";
+
 const AppDetails = () => {
     const { id } = useParams();
     
@@ -16,6 +18,29 @@ const AppDetails = () => {
             return new Promise((resolve) => setTimeout(() => resolve(result), 500));
         }
     });
+
+    const handleInstall = () => {
+        const installed = JSON.parse(localStorage.getItem("installedApps") || "[]");
+        if (!installed.includes(app.id)) {
+            installed.push(app.id);
+            localStorage.setItem("installedApps", JSON.stringify(installed));
+            toast.success(`${app.title} installed successfully!`, {
+                position: "top-right",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                theme: "colored",
+            });
+        } else {
+            toast.info(`${app.title} is already installed.`, {
+                position: "top-right",
+                autoClose: 2000,
+                theme: "colored",
+            });
+        }
+    };
 
     if (isLoading) {
         return <div className="min-h-screen flex items-center justify-center">
@@ -74,7 +99,10 @@ const AppDetails = () => {
                             </div>
                         </div>
 
-                        <button className="w-full md:w-auto bg-[#00D391] hover:bg-[#00BF83] text-white font-bold py-4 px-12 rounded-xl transition-all shadow-lg hover:shadow-xl active:scale-95 text-lg">
+                        <button 
+                            onClick={handleInstall}
+                            className="w-full md:w-auto bg-[#00D391] hover:bg-[#00BF83] text-white font-bold py-4 px-12 rounded-xl transition-all shadow-lg hover:shadow-xl active:scale-95 text-lg"
+                        >
                             Install Now ({app.size} MB)
                         </button>
                     </div>
